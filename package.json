@@ -9,7 +9,7 @@
   "bugs": "https://github.com/TonyJOM/koa-webpack-alt/issues",
   "main": "lib/index.js",
   "engines": {
-    "node": ">= 6.9.0 < 7.0.0 || >= 8.9.0"
+    "node": ">= 10.0.0"
   },
   "scripts": {
     "ci:coverage": "nyc npm run ci:test && nyc report --reporter=text-lcov > coverage.lcov",
