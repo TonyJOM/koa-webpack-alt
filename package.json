@@ -1,6 +1,6 @@
 {
   "name": "koa-webpack-alt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Development and Hot Reload Middleware for Koa2",
   "license": "MPL-2.0",
   "repository": "TonyJOM/koa-webpack-alt",
@@ -27,7 +27,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "webpack": "^4.46.0"
+    "webpack": "^5.73.0"
   },
   "dependencies": {
     "app-root-path": "^3.0.0",
