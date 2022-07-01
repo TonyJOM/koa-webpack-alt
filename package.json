@@ -1,15 +1,15 @@
 {
-  "name": "koa-webpack",
-  "version": "6.0.0",
+  "name": "koa-webpack-alt",
+  "version": "0.1.0",
   "description": "Development and Hot Reload Middleware for Koa2",
   "license": "MPL-2.0",
-  "repository": "shellscape/koa-webpack",
-  "author": "Andrew Powell <andrew@shellscape.org>",
-  "homepage": "https://github.com/shellscape/koa-webpack",
-  "bugs": "https://github.com/shellscape/koa-webpack/issues",
+  "repository": "TonyJOM/koa-webpack-alt",
+  "author": "Anthony Orta <anthony.orta@taxfyle.com>",
+  "homepage": "https://github.com/TonyJOM/koa-webpack-alt",
+  "bugs": "https://github.com/TonyJOM/koa-webpack-alt/issues",
   "main": "lib/index.js",
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 6.9.0 < 7.0.0 || >= 8.9.0"
   },
   "scripts": {
     "ci:coverage": "nyc npm run ci:test && nyc report --reporter=text-lcov > coverage.lcov",
@@ -27,7 +27,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "webpack": "^4.28.0"
+    "webpack": "^4.46.0"
   },
   "dependencies": {
     "app-root-path": "^3.0.0",
@@ -35,7 +35,7 @@
     "joi": "^17.2.0",
     "merge-options": "^2.0.0",
     "webpack-dev-middleware": "^3.7.2",
-    "webpack-hot-client": "^4.1.2"
+    "webpack-hot-client-alt": "^0.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
@@ -44,14 +44,14 @@
     "eslint-config-shellscape": "^2.1.0",
     "husky": "^4.2.5",
     "killable": "^1.0.1",
-    "koa": "^2.13.0",
+    "koa": "^2.13.4",
     "koa-compose": "^4.1.0",
     "lint-staged": "^10.2.11",
     "nyc": "^15.1.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.13.4",
     "supertest": "^4.0.2",
-    "webpack": "^4.44.1"
+    "webpack": "^5.73.0"
   },
   "keywords": [
     "koa",
