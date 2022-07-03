@@ -71,7 +71,7 @@ test('should provide access to middleware and client', async (t) => {
   return close(server, middleware);
 });
 
-test('should disable hot-client', async (t) => {
+test('should disable hot-client-alt', async (t) => {
   const { middleware, req, server } = await setup({
     devMiddleware: { lazy: false },
     hotClient: false

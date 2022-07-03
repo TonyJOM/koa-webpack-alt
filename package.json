@@ -1,7 +1,7 @@
 {
   "name": "koa-webpack-alt",
-  "version": "0.1.1",
-  "description": "Development and Hot Reload Middleware for Koa2",
+  "version": "0.1.2",
+  "description": "koa-webpack by @shellscape adapted for webpack 5",
   "license": "MPL-2.0",
   "repository": "TonyJOM/koa-webpack-alt",
   "author": "Anthony Orta <anthony.orta@taxfyle.com>",
@@ -35,7 +35,7 @@
     "joi": "^17.2.0",
     "merge-options": "^2.0.0",
     "webpack-dev-middleware": "^3.7.2",
-    "webpack-hot-client-alt": "^0.1.0"
+    "webpack-hot-client-alt": "^0.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
