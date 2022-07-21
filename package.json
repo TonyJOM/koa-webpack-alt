@@ -1,6 +1,6 @@
 {
   "name": "koa-webpack-alt",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "koa-webpack by @shellscape adapted for webpack 5",
   "license": "MPL-2.0",
   "repository": "TonyJOM/koa-webpack-alt",
@@ -35,7 +35,7 @@
     "joi": "^17.2.0",
     "merge-options": "^2.0.0",
     "webpack-dev-middleware": "^5.3.3",
-    "webpack-hot-client-alt": "^0.2.0"
+    "webpack-hot-client-alt": "^0.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
